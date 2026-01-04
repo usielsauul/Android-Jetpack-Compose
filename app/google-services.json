@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562290267808",
+    "project_id": "basic-bd359",
+    "storage_bucket": "basic-bd359.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562290267808:android:57fb31653c5f7f92699bc5",
+        "android_client_info": {
+          "package_name": "com.linux.jetpackcompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDomlWZTmcVE_KMLZFrCe8HOkyL2vt2Fag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
