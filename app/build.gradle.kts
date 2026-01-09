@@ -61,6 +61,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation(platform(libs.firebase.bom.v3310))
     implementation(libs.firebase.analytics)
-    implementation("com.google.firebase:firebase-firestore")
-
+    implementation(libs.firebase.firestore)
+    implementation("com.airbnb.android:lottie-compose:6.6.6")
+    implementation("androidx.navigation:navigation-compose:2.8.5")
 }

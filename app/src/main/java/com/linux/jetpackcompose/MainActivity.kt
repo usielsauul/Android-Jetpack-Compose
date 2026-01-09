@@ -21,11 +21,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
+import com.linux.jetpackcompose.Buttons.MyButton
+import com.linux.jetpackcompose.Exercices.MyFirstExercise
 import com.linux.jetpackcompose.Layouts.MyBox
 import com.linux.jetpackcompose.Layouts.MyColumn
+import com.linux.jetpackcompose.Progress.MyLinearProgessIndicator
+import com.linux.jetpackcompose.Progress.ProgressAnimation
+import com.linux.jetpackcompose.Selection.MyCheckBox
+import com.linux.jetpackcompose.Selection.MySwitch
 import com.linux.jetpackcompose.Texts.MyText
 import com.linux.jetpackcompose.Texts.MyTextField
 import com.linux.jetpackcompose.Texts.MyTextFieldParent
+import com.linux.jetpackcompose.images.MyAdvanceImage
 import com.linux.jetpackcompose.ui.theme.JetpackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -35,9 +42,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MyTextFieldParent(modifier = Modifier.padding(innerPadding))
+                    MyFirstExercise(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
     }
 }
+

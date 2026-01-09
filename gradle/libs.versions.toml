@@ -1,5 +1,6 @@
 [versions]
 agp = "8.13.2"
+coilCompose = "3.3.0"
 firebaseBom = "34.7.0"
 firebaseBomVersion = "33.1.0"
 kotlin = "2.0.21"
@@ -14,9 +15,11 @@ foundationLayout = "1.10.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-bom-v3310 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
