@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
@@ -41,7 +42,7 @@ fun MyBox(modifier: Modifier = Modifier) {
         Box(modifier = Modifier
             .size(50.dp)
             .background(Color.Green)
-            .align(Alignment.BottomStart)
+            .padding(bottom = 50.dp)
         )
         Box(modifier = Modifier
             .size(50.dp)

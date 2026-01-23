@@ -22,13 +22,20 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.linux.jetpackcompose.Buttons.MyButton
+import com.linux.jetpackcompose.Dropdown.MyDropDownnMenu
+import com.linux.jetpackcompose.Dropdown.MyExposedDropDownMenu
 import com.linux.jetpackcompose.Exercices.MyFirstExercise
+import com.linux.jetpackcompose.Exercices.MyProfile
 import com.linux.jetpackcompose.Layouts.MyBox
 import com.linux.jetpackcompose.Layouts.MyColumn
 import com.linux.jetpackcompose.Progress.MyLinearProgessIndicator
 import com.linux.jetpackcompose.Progress.ProgressAnimation
 import com.linux.jetpackcompose.Selection.MyCheckBox
+import com.linux.jetpackcompose.Selection.MyRadioButton
+import com.linux.jetpackcompose.Selection.MyRadioButtonList
 import com.linux.jetpackcompose.Selection.MySwitch
+import com.linux.jetpackcompose.Slider.MySlider
+import com.linux.jetpackcompose.Slider.MySliderAdvance
 import com.linux.jetpackcompose.Texts.MyText
 import com.linux.jetpackcompose.Texts.MyTextField
 import com.linux.jetpackcompose.Texts.MyTextFieldParent
@@ -42,7 +49,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MyFirstExercise(modifier = Modifier.padding(innerPadding))
+                    MyExposedDropDownMenu(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
